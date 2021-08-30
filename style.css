@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/a3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header .navbar {
+    height: 30px;
+    width: auto;
+    display: inline-flexbox;
+    align-items: center;
+    padding-top: 5px;
+    background-color: rgb(0, 0, 0);
+}
+
+.header .contact-info {
+    color: #fff;
+    margin-left: 1200px;
+    display: inline-block;
+    align-items: flex-end;
+    margin-top: -17px;
+}
+
+.menu ul {
+    margin-left: 192px;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-right: 35px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.header .navbar ul li a:hover {
+    color: #c32865;
+}
+
+.header .contact-info ul li a.sep {
+    margin: 0 28px;
+    opacity: 0.3;
+}
+
+.banner {
+    position: absolute;
+    top: 35%;
+    left: 0;
+    color: rgb(0, 0, 0);
+}
+
+.app-text {
+    padding-left: 800px;
+    color: black;
+}
+
+.app-text h3 {
+    margin-top: 100px;
+    font-size: 25px;
+    color: black;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.app-text h1 {
+    font-size: 80px;
+    position: relative;
+    color: white;
+    margin-top: 30px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.app-text h1 span {
+    color: #c32865;
+}
+
+.app-text p {
+    font-size: 19px;
+    margin: 30px 30px 30px 0;
+    letter-spacing: 1px;
+    color: #fff;
+    padding-right: 250px;
+    line-height: 1.5;
+    letter-spacing: 3px;
+}
+
+.social-icons {
+    position: absolute;
+    right: 50px;
+    bottom: 2%;
+}
+
+.social-icons ul li {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+.social-icons ul li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 12px 17px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.social-icons ul li a:hover {
+    background: #c32865;
+    color: #fff;
+}
